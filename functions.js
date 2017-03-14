@@ -97,6 +97,11 @@ divide(4,2);
  * @return {number} squared
  */
 
+function square(x){
+	return x * x;
+}
+
+square(2);
 
 /**
  * Performs a mathematical operation on two numbers.
