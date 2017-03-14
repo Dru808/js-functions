@@ -4,6 +4,12 @@
  * @return {string} the number as a string
  */
 
+function numberToString(number){
+
+ 	return number.toString();
+} 
+
+numberToString(6);
 
 /**
  * Adds one to a given number.
