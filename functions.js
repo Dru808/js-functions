@@ -173,6 +173,7 @@ function areEqual(x, y){
 }
 
 areEqual(2, 2);
+
 /**
  * Returns the smallest value of two numbers.
  * @param {number} x
@@ -180,6 +181,15 @@ areEqual(2, 2);
  * @return {number} the smallest number
  */
 
+function minimum(x, y){
+	if(x < y){
+		return x;
+	}else{
+		return y;
+	}
+}
+
+minimum(1, 2);
 
 /**
  * Returns the largest value of two numbers.
