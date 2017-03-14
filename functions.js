@@ -268,6 +268,7 @@ function letterGrade(score, hScore){
 	}
 }
 letterGrade(91, 100);
+
 /**
  * Checks if a `restaurant` object has a `reviews` property.
  * If it does, increase the property's `reviews` value by 1.
@@ -276,7 +277,19 @@ letterGrade(91, 100);
  * @return {object} restaurant
  */
 
+function incrementReviews(obj){
+	
+	if(obj.reviews){
+		obj.reviews++;
+	}else{
+		obj.reviews = 1;
+	}
 
+return obj;
+
+}
+
+incrementReviews({"reviews":2});
 /**
  * Joins two strings with a space.
  * @param {string} word1
