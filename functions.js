@@ -297,7 +297,12 @@ incrementReviews({"reviews":2});
  * @return {string} joined the words joined with a space
  */
 
+function combine(str, str2){
+	return str + " " + str2;
 
+}
+
+combine("hello", "Kitty");
 /**
  * Returns a circle object with the properties `circumference` and `area`.
  * Use Math.PI for the value π.
