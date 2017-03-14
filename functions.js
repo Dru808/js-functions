@@ -49,6 +49,7 @@ function add(x, y){
 }
 
 add(2,3);
+
 /**
  * Subtracts the second number from the first.
  * @param {number} x
@@ -56,7 +57,11 @@ add(2,3);
  * @return {number} the difference
  */
 
+function subtract(x, y){
+	return x - y;
+}
 
+sunbtract(4,3);
 /**
  * Multiplies two numbers.
  * @param {number} x
