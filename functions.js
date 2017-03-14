@@ -62,6 +62,7 @@ function subtract(x, y){
 }
 
 sunbtract(4,3);
+
 /**
  * Multiplies two numbers.
  * @param {number} x
@@ -69,7 +70,11 @@ sunbtract(4,3);
  * @return {number} the product
  */
 
+function multiply(x, y){
+	return x * y;
+}
 
+muliply(2,2);
 /**
  * Divides the first number by the second.
  * @param {number} x
