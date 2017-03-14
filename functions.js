@@ -22,13 +22,19 @@ function increase(number){
 	return number + 1;
 }
 increase(5);
+
 /**
  * Subtracts one from a given number.
  * @param {number} n
  * @return {number}
  */
 
+function decrease(number){
 
+	return number - 1;
+}
+
+decrease(5);
 /**
  * Adds two numbers.
  * @param {number} x
