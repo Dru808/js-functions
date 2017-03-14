@@ -198,6 +198,14 @@ minimum(1, 2);
  * @return {number} the largest number
  */
 
+function maximum(x, y){
+	if(x > y){
+		return x;
+	}else{
+		return y;
+	}
+}
+maximum(3, 2);
 
 /**
  * Returns true if `n` is even.
