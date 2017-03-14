@@ -228,6 +228,15 @@ isEven(3);
  * @return {boolean} the number is odd
  */
 
+function isOdd(n){
+	if(n % 2 === 0){
+		return false;
+	}else{
+		return true;
+	}
+}
+
+isOdd(2);
 
 /**
  * Returns a letter grade.
