@@ -17,7 +17,11 @@ numberToString(6);
  * @return {number}
  */
 
-
+function increase(number){
+	
+	return number + 1;
+}
+increase(5);
 /**
  * Subtracts one from a given number.
  * @param {number} n
