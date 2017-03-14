@@ -112,6 +112,15 @@ square(2);
  * @return {number} the result
  */
 
+function calculate(add, x, y){
+	
+	sum = x + y;
+	console.log(sum);
+	return sum;
+}
+
+calculate("add", 4, 7);
+console.log("4 + 7 = 11");
 
 /**
  * Returns true if `a` is greater than `b`.
@@ -120,7 +129,16 @@ square(2);
  * @return {boolean} `a` is larger than `b`
  */
 
+function isGreaterThan(a, b){
+	if (a > b){
+		return true;
+	}else{
+		return false;
+	}
 
+}
+
+isGreaterThan(4, 5);
 /**
  * Returns true if `a` is less than `b`.
  * @param {number} a
