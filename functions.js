@@ -164,7 +164,15 @@ isLessThan(2, 4);
  * @return {boolean} the numbers are equal
  */
 
+function areEqual(x, y){
+	if(x === y){
+		return true;
+	}else{
+		return false;
+	}
+}
 
+areEqual(2, 2);
 /**
  * Returns the smallest value of two numbers.
  * @param {number} x
