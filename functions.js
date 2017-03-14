@@ -75,12 +75,20 @@ function multiply(x, y){
 }
 
 muliply(2,2);
+
 /**
  * Divides the first number by the second.
  * @param {number} x
  * @param {number} y
  * @return {number} the quotient
  */
+
+function divide(x, y){
+return x / y;
+
+}
+
+divide(4,2);
 
 
 /**
