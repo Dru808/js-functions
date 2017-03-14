@@ -238,6 +238,8 @@ function isOdd(n){
 
 isOdd(2);
 
+
+
 /**
  * Returns a letter grade.
  * "A": 90-100%
@@ -250,7 +252,22 @@ isOdd(2);
  * @return {string} the score represented as a letter grade
  */
 
-
+function letterGrade(score, hScore){
+	testScore = score / hScore;
+	percentage = testScore * 100; 
+	if(percentage >= 90){
+		return "A";
+	}else if(percentage >= 80){
+		return "B";
+	}else if(percentage >= 70){
+		return "C";
+	}else if(percentage >= 60){
+		return "D";
+	}else if(percentage >= 50){
+		return "F";
+	}
+}
+letterGrade(91, 100);
 /**
  * Checks if a `restaurant` object has a `reviews` property.
  * If it does, increase the property's `reviews` value by 1.
